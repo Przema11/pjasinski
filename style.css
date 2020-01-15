@@ -28,13 +28,12 @@ html,body{
     height: 100%;
     display: grid;
     grid-template-columns: 50%,50%;
-    .ccc2{background: purple;}
+    background: purple;
 }
 .ccc3{
     height: 100%;
     display: grid;
     grid-template-columns: 50%,50%;
-    .ccc3{background: royalblue;}
 }
 .cc1{background: pink;}
 .cc2{background: yellow;}
