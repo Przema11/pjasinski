@@ -4,36 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-
-    <link rel="stylesheet" href="https://js.arcgis.com/4.9/esri/css/main.css"/>
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://js.arcgis.com/4.9/esri/css/main.css">
+    <link rel="stylesheet" href="style.css">
     <script src="https://js.arcgis.com/4.9/"></script>
-    <script src="scripts/script.js"></script>
+    <script src="nic.js" defer></script>
+    <title>Kluby piłkarskie</title>
 </head>
 <body>
-    <div class="c1">c1</div>
-    <div class="c2">
-        <div class="cc1">
-            <div class="ccc1">
-                <div class="cccc1">CCCC1</div>
-                <div class="cccc2">CCCC2</div>
-            </div>
-            <div class="ccc2">
-                <div class="cccc3">CCCC3</div>
-                <div class="cccc4">CCCC4</div>
-            </div>
-            <div class="ccc3">
-                <div class="cccc5">CCCC5</div>
-                <div class="cccc6">CCCC6</div>
-            </div>
+    <div class="container">
+        <div class="t"><br><br>Moje ulubione kluby</div>
+        <div class="a">
+            <div class="a1"><br><br>GKS Ruch Izbica</div>
+            <div class="a2"><br><br>KS Sparta Rejowiec Fabryczny</div>
+            <div class="a3"><br><br>FC Barcelona</div>
+            <div class="a4"><br><br>Legia Warszawa</div>
         </div>
-        <div class="cc2"  id="cc2">
-            <button id = "cc2">Mapa Topograficzna</div>
-            <div></div>
+        <div class="b">
+            <div class="b1"><img src="ruch.png" alt="ruch" width="380px" height="150px"></div>
+            <div class="b2"><img src="sparta.png" alt="sparta" width="300px" height="150px"></div>
+            <div class="b3"><img src="barca.jpg" alt="barca" width="250px" height="200px"></div>
+            <div class="b4"><img src="legia.jpg" alt="legia" width="300px" height="160px"></div>
+        </div>
+        <div class="c">
+            <div class="c1">Gminny Klub Sportowy "Ruch" w Izbicy,który powstał w 1926r.Występuje w Chełmskiej Klasie Okręgowej,
+                gdzie radzi sobie dobrze, szkoli młodzież która osiąga bardzo dobre wyniki w swoich ligach.
+            </div>
+            <div class="c2">Klub Sportowy Sparta Rejowiec Fabryczny,który powstał w 1966r. Drużyna w ubiegłym sezonie zdobyła awans do IV ligi lubelskiej,
+                i w tej chwili walczy o utrzymanie w niej na przyszły sezon.
+            </div>
+            <div class="c3">Futbol Club Barcelona,założony w 1899 r. wielokrotny mistrz Hiszpanii,jeden z najlepszych klubów świata posiadający w swych szeregach
+                gwaizdy światowego formatu.
+
+            </div>
+            <div class="c4">Legia Warszawa polski klub piłkarski,powstał w 1916r. wielokrotny mistrz Polski,oraz jedna z perspektywicznych drużyn do udział w europejskich pucharach.
+            </div>
+
+        </div>
+        <div id = "d">
+            <button id = "mapa1">Mapa Satelitarna</button>
+            <button id = "mapa2">Mapa Topograficzna</button>
+            <button id = "mapa3">Mapa OSM</button>
+            <button id = "mapa4">Mapa AGOL</button>
         </div>
     </div>
-    <div class="c3">3</div>
 
+    
 </body>
 </html>
